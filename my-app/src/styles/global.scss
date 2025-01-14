@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+@import "../styles/variables.module.scss";
+@import "bootstrap/scss/bootstrap";
+
+* {
+  font-family: $libre-font;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, black 50%, white 50%);
+  background-repeat: no-repeat;
+}
+
+main {
+  margin-top: 10px;
+  width: 100%;
+  border: solid linear-gradient(to right, white 50%, black 50%);
+}
+
+// Navigation constum hoover
+
+.custom-link {
+  color: $color-white;
+  font-family: $thinMan-font;
+  &:hover {
+    color: $link-color;
+    opacity: 0.8;
+  }
+}
+.costum-icon-color {
+  background-color: $link-color;
+}
+
+// General
+
+.text-container {
+  padding: 20px;
+  width: 500px;
+  background: $background-color;
+  border: solid $color-white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  /* Tablet*/
+  @media screen and (max-width: 768px) {
+    padding: 10px;
+    width: 400px;
+  }
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    padding: 20px;
+    width: 300px;
+  }
+}
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 3s;
+}
+
+.card-style {
+  border-radius: 0;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  border: solid $color-black;
+}
+
+.container-size {
+  width: 800px;
+  /* Tablet*/
+  @media screen and (max-width: 768px) {
+    width: 600px;
+  }
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    width: 400px;
+  }
+}
+
+// Index
+
+.heading {
+  width: 300px;
+  color: $color-white;
+  font-size: 72px;
+  font-family: $thinMan-font;
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    font-size: 42px;
+  }
+}
+
+.heading-lg {
+  font-size: 100px;
+  font-family: $thinMan-font;
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    font-size: 42px;
+  }
+}
+
+.img-style {
+  border-bottom: solid $color-white;
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
+}
+
+%general-style {
+  font-family: $thinMan-font;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.title-previous-experience {
+  margin-top: 0px;
+  @extend %general-style;
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+  }
+}
+
+.title-about-me {
+  @extend %general-style;
+}
+
+// Experience
+
+.titel-experience {
+  @extend %general-style;
+  @media screen and (max-width: 480px) {
+    font-size: 20px;
+  }
+}
+
+.title-underline {
+  background-color: $link-color;
+  height: 2px;
+  width: 600px;
+  margin-bottom: 20px;
+  opacity: 0.7;
+  @media screen and (max-width: 480px) {
+    width: 300px;
+  }
+}
+
+.sub-title {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 500px;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
+}
+
+.card-text {
+  font-size: 17px;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 13px;
+  }
+}
+.card-text-xs {
+  font-size: 17px;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 12px;
+  }
+}
+
+// contact & ecperience
+
+.second-heading {
+  width: 500px;
+  color: $color-white;
+  font-size: 72px;
+  font-family: $thinMan-font;
+  /* Tablet*/
+  @media screen and (max-width: 768px) {
+    font-size: 62px;
+  }
+
+  /* Mobile */
+  @media screen and (max-width: 480px) {
+    font-size: 42px;
+  }
+}
