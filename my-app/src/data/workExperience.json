@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "title": "Project Manager",
+      "company": "Lagerstam Event AB",
+      "period": "2012-2021"
+    },
+    {
+      "id": 2,
+      "title": "Project Manager",
+      "company": "Putte i Parken Sverige AB",
+      "period": "2012-2019"
+    },
+    {
+      "id": 3,
+      "title": "Sales",
+      "company": "Gudrun Sjödén AB",
+      "period": "2015-2023"
+    },
+    {
+      "id": 4,
+      "title": "Kitchen/Serving Manager",
+      "company": "Bistro V",
+      "period": "2013-2014"
+    },
+    {
+      "id": 5,
+      "title": "Team Leader",
+      "company": "Louder Living Marketing AB",
+      "period": "2012-2013"
+    },
+    {
+      "id": 6,
+      "title": "Head Waiter",
+      "company": "Nya Serveringen",
+      "period": "2011-2014"
+    }
+  ]

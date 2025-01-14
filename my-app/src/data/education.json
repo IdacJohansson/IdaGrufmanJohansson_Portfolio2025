@@ -1,0 +1,26 @@
+[
+  {
+    "degree": "Frontend Developer",
+    "institution": "Sundsgårdens Folkhögskola",
+    "city": "Helsingborg",
+    "period": "2024-2025"
+  },
+  {
+    "degree": "Java Developer",
+    "institution": "Nackademin",
+    "city": "Solna",
+    "period": "2022-2024"
+  },
+  {
+    "degree": "Upplevelseproducent/Event producer",
+    "institution": "Entreprenörsskolan",
+    "city": "Leksand",
+    "period": "2010-2012"
+  },
+  {
+    "degree": "High school studies, economy",
+    "institution": "Brinellskolan",
+    "city": "Fagersta",
+    "period": "2007-2009"
+  }
+]
