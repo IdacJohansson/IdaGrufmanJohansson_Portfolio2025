@@ -19,6 +19,9 @@ const NavBar = () => {
             <Nav.Link className="custom-link" href="/Experience">
               Experience
             </Nav.Link>
+            <Nav.Link className="custom-link" href="/Projects">
+              Projects
+            </Nav.Link>
             <Nav.Link className="custom-link" href="/Contact">
               Contact
             </Nav.Link>
