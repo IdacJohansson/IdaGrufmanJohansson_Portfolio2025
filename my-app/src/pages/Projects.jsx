@@ -7,11 +7,10 @@ import Col from "react-bootstrap/Col";
 
 import Header from "../components/Header";
 
-import PatagoniaImage from "../components/PatagoniaImage";
-import GenesisImage from "../components/GenesisImage";
 import NavigationImage from "../components/NavigationImage";
 
 import "animate.css";
+import SweCandyStoreImage from "../components/SweCandyStoreImage";
 
 export default function Projects() {
   return (
@@ -28,20 +27,19 @@ export default function Projects() {
           {/* Project 1 */}
           <Col>
               <a
-                href="https://idyllic-manatee-74b27d.netlify.app/"
+                href="https://stirring-axolotl-09232f.netlify.app/"
                 className="card-link-wrapper"
               >
                 <Card className="custom-card">
                   <div className="overlay">
                     <div className="overlay-text">View website!</div>
                   </div>
-                  <NavigationImage />
+                  <SweCandyStoreImage />
                   <Card.Body>
-                    <Card.Title>Responsive navigation</Card.Title>
+                    <Card.Title>Swedish Candy store</Card.Title>
                     <Card.Text>
-                      This project demonstrates a responsive navigation
-                      optimized for various screen sizes and devices. Styled
-                      with Sass.
+                      A webshop-demo built in classic HTML and styled with Sass and Bootstrap.
+                      Features include an interactive shopping cart with counter and delete functionality, a save-to-favorites option with remove support, and the ability to print product listings. All implemented using JavaScript.  
                     </Card.Text>
                   </Card.Body>
                 </Card>
