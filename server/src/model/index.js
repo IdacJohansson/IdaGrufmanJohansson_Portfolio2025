@@ -6,6 +6,10 @@ import SkillsMap from "./skillsMap_model.js";
 import DevelopmentExperience from "./developmentExperience_model.js";
 import Education from "./education_model.js";
 import WorkExperience from "./workExperience_model.js";
+import Today from "./today_model.js";
+import About from "./about_model.js";
+import Projects from "./projects_modal.js";
+import Contact from "./contact_model.js";
 
 const syncModels = async () => {
   try {
@@ -24,6 +28,10 @@ export {
   DevelopmentExperience,
   Education,
   WorkExperience,
+  Today,
+  About,
+  Projects,
+  Contact,
   syncModels,
   sequelize
 };
